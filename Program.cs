@@ -12,6 +12,8 @@ namespace FindParis
             CheckAndWrite(new[] { 2, 3, 2, 3 }, 5, 4);
             CheckAndWrite(new[] { -2, 3, 1, 0, 0, 1 }, 1, 5);
             CheckAndWrite(new[] { 1, 2, 3, 4, 5 }, 6, 2);
+            CheckAndWrite(new int[0], 0, 0);
+            CheckAndWrite(new[] { 1, 2, 3, 4 }, 0, 0);
             Console.Read();
         }
 
